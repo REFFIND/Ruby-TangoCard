@@ -1,27 +1,15 @@
 # Tangocard
-[ ![Codeship Status for bonusly/tangocard](https://codeship.com/projects/06e6ede0-ac7d-0132-5432-16eb0c65b489/status?branch=master)](https://codeship.com/projects/68509)
 
 Ruby Wrapper for Tango Card RaaS API.
 
 Tango Card provides a RaaS API for developers (https://www.tangocard.com/docs/raas-api/). This gem provides commonsense Ruby
 objects to wrap the JSON endpoints of the RaaS API.
 
-## Information
-
-* RDoc documentation [available on RubyDoc.info](http://rubydoc.info/github/bonusly/tangocard/master/frames)
-* Source code [available on GitHub](https://github.com/bonusly/tangocard)
-
 ## Getting Help
 
 * Please report bugs on the [issue tracker](https://github.com/bonusly/tangocard/issues)
 
 ## Installation
-
-Add the `tangocard` gem to your `Gemfile`:
-
-```
-gem 'tangocard'
-```
 
 Create an initializer, e.g. `config/initializers/tangocard.rb`:
 
@@ -55,8 +43,3 @@ This gem provides two tools:
 1. A simple wrapper for the Tango Card RaaS API, consisting of two classes: `Tangocard::Raas` and `Tangocard::Response`.
 2. Models for each of the Tango Card objects: `Tangocard::Account`, `Tangocard::Brand`, `Tangocard::Reward`, `Tangocard::Order` and `Tangocard::ExchangeRate`. These provide a greater level of abstraction and ease of use.
 
-## Notes and Credits
-
-This project is developed and maintained by Smartly, Inc. - makers of http://bonus.ly.
-
-This project uses the MIT-LICENSE.
