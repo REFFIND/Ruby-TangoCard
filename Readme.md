@@ -7,12 +7,13 @@ Tango Card provides a RaaS API for developers (https://www.tangocard.com/docs/ra
 Installation
 
 Create an initializer, e.g. config/initializers/tangocard.rb:
-
+'''
 Tangocard.configure do |c|
   c.name = "BonuslyXYZ"
   c.key = "Dnv9ehvff29"
   c.base_uri = "https://sandbox.tangocard.com"
 end
+'''
 There are three required configuration parameters:
 
 name - The API account name you receive from Tango Card
