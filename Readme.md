@@ -23,5 +23,4 @@ There are also optional configuration parameters:
 
 A simple wrapper for the Tango Card RaaS API, consisting of two classes: Tangocard::Raas and Tangocard::Response.
 Models for each of the Tango Card objects: Tangocard::Account, Tangocard::Brand, Tangocard::Reward, Tangocard::Order and Tangocard::ExchangeRate. These provide a greater level of abstraction and ease of use.
-Notes and Credits
-This project is developed and maintained by Smartly, Inc.
+
